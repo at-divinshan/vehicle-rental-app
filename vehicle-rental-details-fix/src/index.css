@@ -1,0 +1,17 @@
+/* index.css - basic global reset, design namma appuram add pannalam */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f5f6fa;
+  color: #1e1e1e;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

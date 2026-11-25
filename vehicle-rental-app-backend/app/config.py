@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     db_host: str = "localhost"
     db_port: int = 3306
     db_name: str = "vehicle_rental_db"
-    cors_origins: str = "http://localhost:5173"
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
     admin_email: str = "admin@yaalvazh.lk"
     admin_password: str = "change-admin-password"
 
